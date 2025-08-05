@@ -1,11 +1,27 @@
+import { AboutSection } from "@/components/sections/about-section";
+import { ContactSection } from "@/components/sections/contact-section";
+import { FacilitiesSection } from "@/components/sections/facilities-section";
+import { Footer } from "@/components/sections/footer";
+import { GallerySection } from "@/components/sections/gallery-section";
+import { Header } from "@/components/sections/header";
+import { HeroSection } from "@/components/sections/hero-section";
+import { PerformanceMonitor } from "@/components/sections/performance-monitor";
+import { RoomsSection } from "@/components/sections/rooms-section";
+import { StructuredData } from "@/components/sections/structured-data";
+
 export default function HomePage() {
   return (
-    <main className="min-h-screen px-6 py-10">
-      <h1 className="text-4xl font-bold">Bine ai venit la Raul</h1>
-      <p className="mt-4 text-lg max-w-xl">
-        Restaurant, Piscină și Evenimente în centrul orașului. Descoperă gustul,
-        relaxarea și eleganța într-un singur loc.
-      </p>
-    </main>
+    <div className="min-h-screen bg-white">
+      <StructuredData />
+      <Header />
+      <HeroSection />
+      <AboutSection />
+      <RoomsSection />
+      <FacilitiesSection />
+      <GallerySection />
+      <ContactSection />
+      <Footer />
+      <PerformanceMonitor />
+    </div>
   );
 }
