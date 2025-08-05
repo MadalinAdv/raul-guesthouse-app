@@ -1,6 +1,7 @@
 import { Users, Bed, Bath, Wifi, Car, Coffee } from "lucide-react";
 import Image from "next/image";
 
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -10,15 +11,13 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-import { Badge } from "@/components/ui/badge";
-
 export function RoomsSection() {
   const rooms = [
     {
       id: 1,
       name: "Camera Dublă Standard",
       price: "180 RON/noapte",
-      originalPrice: "220 RON",
+      originalPrice: "XXX RON",
       description: "Cameră confortabilă cu vedere la grădină",
       image:
         "/placeholder.svg?height=300&width=400&text=Camera+dubla+Galicea+Mare",

@@ -111,7 +111,7 @@ export function Footer() {
                   <Mail className="h-4 w-4 text-green-400" />
                   <span className="font-medium text-white">Email:</span>
                 </div>
-                <div className="text-sm">rezervari@pensiunearaul.ro</div>
+                <div className="text-sm">angidraghici81@gmail.com</div>
               </div>
 
               <div>
@@ -133,9 +133,15 @@ export function Footer() {
           <div className="grid items-center gap-4 md:grid-cols-2">
             <div className="text-center md:text-left">
               <p className="text-gray-400">
-                &copy; 2024 Pensiunea Raul - Galicea Mare, Dolj. Toate
+                &copy; 2025 Pensiunea Raul - Galicea Mare, Dolj. Toate
                 drepturile rezervate.
               </p>
+              <a href="https://www.madalindvp.ro/" target="_blank">
+                {" "}
+                <p className="text-sm text-gray-500">
+                  Made with ❤️ by MadalinDVP{" "}
+                </p>
+              </a>
             </div>
             <div className="text-center md:text-right">
               <p className="text-sm text-gray-500">

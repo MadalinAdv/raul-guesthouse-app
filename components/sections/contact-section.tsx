@@ -87,7 +87,7 @@ Trimis de pe site-ul Pensiunii Raul`;
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-green-600" />
-                <span>rezervari@pensiunearaul.ro</span>
+                <span>angidraghici81@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MessageCircle className="h-5 w-5 text-green-600" />

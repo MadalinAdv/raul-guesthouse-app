@@ -6,7 +6,6 @@ import {
   Mountain,
   Trees,
   Clock,
-  Shield,
   MapPin,
 } from "lucide-react";
 
@@ -47,11 +46,7 @@ export function FacilitiesSection() {
       title: "Recepție 24/7",
       description: "Asistență non-stop pentru oaspeți",
     },
-    {
-      icon: Shield,
-      title: "Anulare flexibilă",
-      description: "Anulare gratuită până cu 24h înainte",
-    },
+
     {
       icon: MapPin,
       title: "Poziție strategică",
@@ -60,42 +55,42 @@ export function FacilitiesSection() {
   ];
 
   return (
-    <section id="facilitati" className="py-20 bg-gray-50">
+    <section id="facilitati" className="bg-gray-50 py-20">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+        <div className="mb-16 text-center">
+          <h2 className="mb-4 text-4xl font-bold text-gray-900">
             Facilitățile Pensiunii Raul din Galicea Mare
           </h2>
-          <p className="text-xl text-gray-600 mb-2">
+          <p className="mb-2 text-xl text-gray-600">
             Tot ce aveți nevoie pentru o ședere perfectă aproape de Craiova
           </p>
-          <p className="text-lg text-green-600 font-semibold">
+          <p className="text-lg font-semibold text-green-600">
             🌟 Toate facilitățile incluse în preț - fără costuri suplimentare!
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+        <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-2 lg:grid-cols-4">
           {facilities.map((facility, index) => (
             <div
               key={index}
-              className="text-center group hover:transform hover:scale-105 transition-all duration-300"
+              className="group text-center transition-all duration-300 hover:scale-105 hover:transform"
             >
-              <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-green-200 transition-colors">
+              <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-green-100 transition-colors group-hover:bg-green-200">
                 <facility.icon className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">{facility.title}</h3>
-              <p className="text-gray-600 text-sm">{facility.description}</p>
+              <h3 className="mb-2 text-lg font-semibold">{facility.title}</h3>
+              <p className="text-sm text-gray-600">{facility.description}</p>
             </div>
           ))}
         </div>
 
-        <div className="mt-16 bg-white rounded-lg p-8 shadow-lg max-w-4xl mx-auto">
-          <h3 className="text-2xl font-bold text-center mb-6 text-gray-900">
+        <div className="mx-auto mt-16 max-w-4xl rounded-lg bg-white p-8 shadow-lg">
+          <h3 className="mb-6 text-center text-2xl font-bold text-gray-900">
             De ce Pensiunea Raul din Galicea Mare?
           </h3>
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid gap-6 md:grid-cols-2">
             <div>
-              <h4 className="font-semibold text-green-600 mb-3">
+              <h4 className="mb-3 font-semibold text-green-600">
                 🎯 Locație strategică
               </h4>
               <ul className="space-y-2 text-gray-600">
@@ -108,7 +103,7 @@ export function FacilitiesSection() {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold text-green-600 mb-3">
+              <h4 className="mb-3 font-semibold text-green-600">
                 💰 Prețuri avantajoase
               </h4>
               <ul className="space-y-2 text-gray-600">
