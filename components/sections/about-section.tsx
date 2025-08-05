@@ -20,11 +20,12 @@ export function AboutSection() {
           <div className="grid items-center gap-12 md:grid-cols-2">
             <div>
               <Image
-                src="/placeholder.svg?height=500&width=600&text=Interior+pensiune+Galicea+Mare"
-                alt="Interior elegant Pensiunea Raul din Galicea Mare, Dolj"
+                src="/images/camere-confortabile-galicea-mare.jpg"
+                alt="Test imagine"
                 width={600}
                 height={500}
-                className="rounded-lg shadow-lg"
+                className="h-auto w-full rounded"
+                priority
               />
             </div>
             <div className="space-y-6">

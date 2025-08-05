@@ -10,7 +10,7 @@ export function HeroSection() {
       <SEOOptimizedContent />
       <div className="absolute inset-0">
         <Image
-          src="/placeholder.svg?height=800&width=1200&text=Pensiunea+Raul+Galicea+Mare"
+          src="/images/camere-confortabile-galicea-mare.jpg?height=800&width=1200&text=Pensiunea+Raul+Galicea+Mare"
           alt="Pensiunea Raul - cazare premium în Galicea Mare, Dolj, aproape de Craiova"
           fill
           className="object-cover"
