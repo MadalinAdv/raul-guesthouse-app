@@ -5,6 +5,7 @@ import Script from "next/script";
 import type React from "react";
 
 import { CookieConsent } from "@/components/action/cookie-consent";
+import WhatsAppButton from "@/components/sections/enchanged-floating-call";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -344,8 +345,9 @@ export default function RootLayout({
         </noscript>
 
         {children}
-        <CookieConsent />
 
+        <CookieConsent />
+        <WhatsAppButton />
         {/* Google Tag Manager */}
         <Script id="google-tag-manager" strategy="afterInteractive">
           {`
